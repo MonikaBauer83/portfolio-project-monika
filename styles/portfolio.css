@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
+  --branding-color: #4682a8;
+  --secondary-color: #f6f4eb;
+  --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -21,9 +21,9 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 65px;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 h2 {
@@ -73,7 +73,7 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 30px 80px;
   border-radius: 10px;
 }
 
@@ -106,6 +106,14 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+footer .github-link {
+  color: black;
+}
+
+footer .github-link:hover {
+  color: var(--branding-color);
+}
+
 .logo {
   max-height: 40px;
 }
@@ -113,12 +121,12 @@ footer .social-links a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 50px 120px;
+  border-radius: 10px;
 }
 
 .hero p {
   font-size: 36px;
-  font-weight: bold;
   margin: 0;
   color: #272142;
 }
@@ -136,7 +144,7 @@ footer .social-links a:hover {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
 }
 
@@ -183,8 +191,9 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 50px;
     line-height: 56px;
+    margin-top: 10px;
   }
 
   h2 {
@@ -198,6 +207,10 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .content-container {
+    padding: 20px;
   }
 
   .content {

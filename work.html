@@ -17,7 +17,7 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
@@ -36,14 +36,9 @@
       <nav class="d-flex justify-content-between">
         <a href="/" title="Homepage">
           <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt="SheCodes Logo"
-          />
-          <img
-            src="images/logo-small.jpg"
-            class="logo d-blcok d-md-none"
-            alt="SheCodes Logo"
+            src="images/monika-homepage.jpeg"
+            class="logo"
+            alt="Homepage Picture"
           />
         </a>
         <ul>
@@ -58,72 +53,64 @@
         </ul>
       </nav>
     </div>
+
     <div class="content-container container">
+      <div class="hero">
+        <h1>Look at some of my projects</h1>
+      </div>
       <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
         <div class="row">
-          <div class="col-md-6 mb-5">
+          <div class="col-md-4 mb-5">
             <img
-              src="images/yogurt.png"
-              alt="Picture of Greek Yoogurt and some explantion"
-              class="img-fluid mb-3"
-            />
-            <h3 class="text-center m-0">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
-          <div class="col-md-6 mb-5">
-            <img
-              src="images/weather.png"
-              alt="Picture of a Weather App"
-              class="img-fluid mb-3"
+              src="images/weather-app.png"
+              alt="See my weather weather-app"
+              class="img-fluid rounded"
             />
             <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
-          <div class="row">
-            <div class="col-md-6 mb-5">
-              <img
-                src="images/dictionary.png"
-                alt="Picture of a Dictionary App"
-                class="img-fluid mb-3"
-              />
-              <h3 class="text-center m-0">Dictionary App</h3>
-              <p class="text-center text-muted">
-                Built with HTML and CSS with React
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img
-                src="images/translation.png"
-                alt="Picture of a Translation App"
-                class="img-fluid mb-3"
-              />
-              <h3 class="text-center m-0">Translation App</h3>
-              <p class="text-center text-muted">
-                Built with HTML and CSS with React
-              </p>
-            </div>
+          <div class="col-md-4 mb-5">
+            <img
+              src="images/coffee-project.png"
+              alt="Picture of my coffee-project"
+              class="img-fluid rounded"
+            />
+            <h3 class="text-center m-0">Coffee Project</h3>
+            <p class="text-center text-muted">Built with HTML and CSS</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <img
+              src="images/croissant-project.png"
+              alt="Picture of a Croissant Project"
+              class="img-fluid rounded"
+            />
+            <h3 class="text-center m-0">Croissant Project</h3>
+            <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
         </div>
       </div>
 
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">Let's work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact Monika"
-              >Let's talk here</a
-            >
+        <div class="container contact-box mb-5 d-none d-md-block">
+          <div class="row">
+            <div class="col-9">
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+            </div>
+
+            <div class="col-3">
+              <a
+                href="/contact.html"
+                class="btn btn-branding"
+                title="Contact Monika"
+                >Let's talk</a
+              >
+            </div>
           </div>
         </div>
+
         <div class="d-flex justify-content-center mb-5">
           <a
             href="mailto:monika.bauer4@chello.at"
@@ -153,11 +140,12 @@
           </a>
         </div>
         <p class="text-center mt-5">
-          This project was coded by Monika, and it is
+          This project was coded by Monika and it is
           <a
             href="https://github.com/MonikaBauer83/portfolio-project"
             target="_blank"
             title="Get to the project"
+            class="github-link"
             >open-sourced.</a
           >
           🩵

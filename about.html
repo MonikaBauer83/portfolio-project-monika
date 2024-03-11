@@ -17,7 +17,7 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
@@ -36,14 +36,9 @@
       <nav class="d-flex justify-content-between">
         <a href="/" title="Homepage">
           <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt="SheCodes Logo"
-          />
-          <img
-            src="images/logo-small.jpg"
-            class="logo d-blcok d-md-none"
-            alt="SheCodes Logo"
+            src="images/monika-homepage.jpeg"
+            class="logo"
+            alt="Homepage Picture"
           />
         </a>
         <ul>
@@ -56,12 +51,16 @@
         </ul>
       </nav>
     </div>
+
     <div class="content-container container">
+      <div class="hero">
+        <p>Hi, I am</p>
+        <h1>Monika</h1>
+        <h2 class="mb-3">Front-end developer based in Austria 🇦🇹</h2>
+      </div>
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">Hi I am Monika</h1>
-            <h2 class="mb-4">Front-end developer based in Austria</h2>
             <p class="mb-5">
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
@@ -86,20 +85,24 @@
       </div>
 
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">Let's work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact Monika"
-              >Let's talk here</a
-            >
+        <div class="container contact-box mb-5 d-none d-md-block">
+          <div class="row">
+            <div class="col-9">
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+            </div>
+
+            <div class="col-3">
+              <a
+                href="/contact.html"
+                class="btn btn-branding"
+                title="Contact Monika"
+                >Let's talk</a
+              >
+            </div>
           </div>
         </div>
+
         <div class="d-flex justify-content-center mb-5">
           <a
             href="mailto:monika.bauer4@chello.at"
@@ -129,11 +132,12 @@
           ></a>
         </div>
         <p class="text-center mt-5">
-          This project was coded by Monika, and it is
+          This project was coded by Monika and it is
           <a
             href="https://github.com/MonikaBauer83/portfolio-project"
             target="_blank"
             title="Get to the project"
+            class="github-link"
             >open-sourced.</a
           >
           🩵
