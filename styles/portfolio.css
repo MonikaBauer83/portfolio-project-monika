@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 50px;
 }
 
 h3 {
@@ -67,6 +67,15 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+a.contact-links {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+a.contact-links:hover {
+  color: black;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -75,6 +84,10 @@ footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 80px;
   border-radius: 10px;
+}
+
+footer h3 {
+  font-size: 40px;
 }
 
 footer .contact-box p {
@@ -113,7 +126,9 @@ footer .github-link {
 footer .github-link:hover {
   color: var(--branding-color);
 }
-
+footer .heart {
+  color: var(--branding-color);
+}
 .logo {
   max-height: 40px;
 }
@@ -139,8 +154,11 @@ footer .github-link:hover {
   color: #272142;
 }
 
+.weather-app {
+  border: solid 1px var(--secondary-color);
+}
 .content-container {
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
 .content h1 {
@@ -186,7 +204,7 @@ footer .github-link:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 0 60px;
 }
 
 @media (max-width: 900px) {
